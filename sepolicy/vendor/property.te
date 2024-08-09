@@ -4,12 +4,6 @@ type dirac_prop, property_type;
 # Audio
 type audio_tunning_prop, property_type;
 
-# Camera
-type oppo_camera_prop, property_type;
-
 # RILD
 type imsi_prop, property_type;
-type oppo_network_prop, property_type;
 
-# Sensors
-type oppo_sensor_prop, property_type;

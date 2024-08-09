@@ -1,5 +1,2 @@
-# OPPO
-vendor.oppo.hardware.wifi.hostapd::IOppoHostapd u:object_r:hal_oppo_hostapd_hwservice:s0
-
 # Mediatek
 vendor.mediatek.hardware.wifi.hostapd::IHostapd u:object_r:hal_mtk_hostapd_hwservice:s0

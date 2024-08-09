@@ -281,35 +281,6 @@
         <transport>hwbinder</transport>
         <fqname>@2.0::ISupplicant/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.biometrics.face</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IBiometricsFace/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.biometrics.fingerprintpay</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IFingerprintPay/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.camera.slogan</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::ISlogan/internal/0</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.ktv</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IKtv/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.oiface</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IOiface/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.wifi.hostapd</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IOppoHostapd/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.trustonic.tee</name>

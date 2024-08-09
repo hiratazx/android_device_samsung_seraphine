@@ -1651,7 +1651,6 @@
       mvno_type="spn"
       mvno_match_data="Orange F"
       read_only="true"
-      oppo_manual_select="11"
   /> -->
   <!-- Enco.Yuan@PSW.NW.DATA.2717918, 2020/04/07, modify apn as ORANGE confirmation, end -->
   <!-- Dongtao.Huang@PSW.NW.DATA.1639287, 2018/11/17, remove B2B dun apn for orange requirement -->
@@ -2024,7 +2023,6 @@
       mnc="10"
       apn="websfr"
       type="dun"
-      oppo_manual_select="11"
   />
   <apn carrier="SFR IMS"
       mcc="208"
@@ -2809,7 +2807,6 @@
       user="orange"
       password="orange"
       type="dun"
-      oppo_manual_select="11"
       read_only="true"
   />
 <!-- ZhaoJi.Yang@PSW.NW.DATA.2337031, 2020/01/07, modify for OS_ORANGE requirement, end -->
@@ -21216,7 +21213,6 @@
       mnc="03"
       apn="web2"
       type="default,supl"
-      oppo_manual_select="1"
   />
   <apn carrier="mobily MMS Prepaid"
       mcc="420"
@@ -21232,7 +21228,6 @@
       mnc="03"
       apn="web1"
       type="default,supl"
-      oppo_manual_select="1"
   />
   <apn carrier="mobily MMS Postpaid"
       mcc="420"
@@ -22128,7 +22123,6 @@
       apn="vmobile.jp"
       authtype="3"
       type="default"
-      oppo_manual_select="1"
   />
   <!-- Guangzhi.Deng@NW.DATA.2105824,2019/07/06, add for xmobile apn, end -->
 
@@ -22139,7 +22133,6 @@
       apn="vmobile.jp"
       authtype="3"
       type="default"
-      oppo_manual_select="1"
   />
   <!-- Guangzhi.Deng@NW.DATA.2391332,2019/10/09, add for excite mobile APN, end -->
 
@@ -22153,7 +22146,6 @@
       password="mate"
       authtype="2"
       type="default,supl,ia,dun"
-      oppo_manual_select="1"
   />
   -->
   <!-- Guangzhi.Deng@PSW.NW.DATA.2154230, 2019/08/01, delete LinksMate's APN end  -->
@@ -22163,43 +22155,43 @@
   <apn carrier="IMS" mcc="440" mnc="51" apn="IMS" protocol="IPV4V6" type="ims"/>
 
   <!-- for MNO DoCoMo SIM-->
-  <apn carrier="sp-mode" mcc="440" mnc="10" apn="spmode.ne.jp" user="" server="" password="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl" oppo_manual_select="1"/>
+  <apn carrier="sp-mode" mcc="440" mnc="10" apn="spmode.ne.jp" user="" server="" password="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl" />
 
   <!-- for mvno rakuten register to DoCoMo-->
-  <apn carrier="楽天モバイル(rmobile.jp)" mcc="440" mnc="10" apn="rmobile.jp" user="rm" password="0000" authtype="3" type="default,supl" oppo_manual_select="1"/>
-  <apn carrier="楽天モバイル(rmobile.co)" mcc="440" mnc="10" apn="rmobile.co" user="rm" password="0000" authtype="2" type="default,supl" oppo_manual_select="1"/>
+  <apn carrier="楽天モバイル(rmobile.jp)" mcc="440" mnc="10" apn="rmobile.jp" user="rm" password="0000" authtype="3" type="default,supl" />
+  <apn carrier="楽天モバイル(rmobile.co)" mcc="440" mnc="10" apn="rmobile.co" user="rm" password="0000" authtype="2" type="default,supl" />
 
   <!-- Yutian.Yi@PSW.NW.DATA.1627973, 2018/11/09, add for Nifty apn -->
   <!-- for mvno Nifty-->
-  <apn carrier="Nifty" mcc="440" mnc="10" apn="mda.nifty.com" user="mda@nifty" password="nifty" authtype="2" type="default" oppo_manual_select="1"/>
+  <apn carrier="Nifty" mcc="440" mnc="10" apn="mda.nifty.com" user="mda@nifty" password="nifty" authtype="2" type="default" />
 
   <!-- add a.rmobile.jp for KDDI-->
-  <apn carrier="楽天モバイル(a.rmobile.jp)" mcc="440" mnc="51" apn="a.rmobile.jp" user="rakuten@vdm" password="0000" authtype="3" type="default,supl" oppo_manual_select="1"/>
+  <apn carrier="楽天モバイル(a.rmobile.jp)" mcc="440" mnc="51" apn="a.rmobile.jp" user="rakuten@vdm" password="0000" authtype="3" type="default,supl" />
 
   <!-- for mvno mineo mobile register to DoCoMo-->
-  <apn carrier="mineo(ドコモプラン)" mcc="440" mnc="10" apn="mineo-d.jp" user="mineo@k-opti.com" password="mineo" authtype="2" type="default,supl,dun" oppo_manual_select="1"/>
+  <apn carrier="mineo(ドコモプラン)" mcc="440" mnc="10" apn="mineo-d.jp" user="mineo@k-opti.com" password="mineo" authtype="2" type="default,supl,dun" />
   <!-- for mvno mineo mobile register to Au-->
-  <apn carrier="mineo(auプラン)" mcc="440" mnc="51" apn="mineo.jp" user="mineo@k-opti.com" password="mineo" authtype="2" type="default,supl,dun" oppo_manual_select="1"/>
+  <apn carrier="mineo(auプラン)" mcc="440" mnc="51" apn="mineo.jp" user="mineo@k-opti.com" password="mineo" authtype="2" type="default,supl,dun" />
 
   <!-- for mvno OCN Mobile ONE register to DoCoMo-->
-  <apn carrier="OCN モバイル ONE (LTE)" mcc="440" mnc="10" apn="lte-d.ocn.ne.jp" user="mobileid@ocn" password="mobile" authtype="3" type="default,supl" oppo_manual_select="1"/>
+  <apn carrier="OCN モバイル ONE (LTE)" mcc="440" mnc="10" apn="lte-d.ocn.ne.jp" user="mobileid@ocn" password="mobile" authtype="3" type="default,supl" />
 
   <!-- for mvno IIJmio register to DoCoMo-->
-  <apn carrier="IIJmio" mcc="440" mnc="10" apn="iijmio.jp" user="mio@iij" password="iij" authtype="3" type="default,supl" oppo_manual_select="1"/>
+  <apn carrier="IIJmio" mcc="440" mnc="10" apn="iijmio.jp" user="mio@iij" password="iij" authtype="3" type="default,supl" />
   <!-- for mvno IIJmio register to Au-->
-  <apn carrier="IIJmio" mcc="440" mnc="51" apn="iijmio.jp" user="mio@iij" password="iij" authtype="3" type="default,supl" oppo_manual_select="1"/>
+  <apn carrier="IIJmio" mcc="440" mnc="51" apn="iijmio.jp" user="mio@iij" password="iij" authtype="3" type="default,supl" />
 
   <!-- for mvno BIGLOBE register to DoCoMo-->
   <!--#ifndef VENDOR_EDIT-->
   <!--Pengcheng.Duan@NW.DATA.1419085,2018/06/15, modify APN name-->
   <!--
-  <apn carrier="BIGLOBE" mcc="440" mnc="10" apn="biglobe.jp" user="user" password="0000" authtype="3" type="default,supl" oppo_manual_select="1"/>
+  <apn carrier="BIGLOBE" mcc="440" mnc="10" apn="biglobe.jp" user="user" password="0000" authtype="3" type="default,supl" />
   -->
   <!-- #else VENDOR_EDIT-->
-  <apn carrier="BIGLOBEモバイル タイプD" mcc="440" mnc="10" apn="biglobe.jp" user="user" password="0000" authtype="3" type="default,supl" oppo_manual_select="1"/>
+  <apn carrier="BIGLOBEモバイル タイプD" mcc="440" mnc="10" apn="biglobe.jp" user="user" password="0000" authtype="3" type="default,supl" />
   <!--#endif VENDOR_EDIT-->
   <!-- for mvno LINE Mobile register to DoCoMo-->
-  <apn carrier="LINEモバイル" mcc="440" mnc="10" apn="line.me" user="line@line" password="line" authtype="3" type="default,supl" oppo_manual_select="1"/>
+  <apn carrier="LINEモバイル" mcc="440" mnc="10" apn="line.me" user="line@line" password="line" authtype="3" type="default,supl" />
 
   <!-- MengDi.Xie@NW.DATA.1932919,2019/04/04, add for LINE PLMN = 44020, begin -->
   <apn carrier="LINEモバイル"
@@ -22210,7 +22202,7 @@
       password="line"
       authtype="3"
       type="default"
-      oppo_manual_select="1"
+      
   />
   <!-- MengDi.Xie@NW.DATA.1932919,2019/04/04, add for LINE PLMN = 44020, end -->
 
@@ -22223,7 +22215,7 @@
       password="iij"
       authtype="3"
       type="default"
-      oppo_manual_select="1"
+      
   />
   <!-- Guangzhi.Deng@NW.DATA.2105824,2019/07/06, add for xmobile apn, end -->
 
@@ -22236,15 +22228,15 @@
       password="line"
       authtype="3"
       type="default"
-      oppo_manual_select="1"
+      
   />
   <!-- Guangzhi.Deng@NW.DATA.2030740,2019/06/05, add for LINE PLMN = 44051, end -->
 
   <!-- for Y! mobile -->
-  <apn carrier="Y! mobile" mcc="440" mnc="20" apn="plus.acs.jp" user="ym" password="ym" mmsport="8080" mmsc="http://mms-s" mmsproxy="andmms.plusacs.ne.jp" authtype="2" type="default,mms,supl" oppo_manual_select="1"/>
+  <apn carrier="Y! mobile" mcc="440" mnc="20" apn="plus.acs.jp" user="ym" password="ym" mmsport="8080" mmsc="http://mms-s" mmsproxy="andmms.plusacs.ne.jp" authtype="2" type="default,mms,supl" />
 
   <!-- for mvno UQ mobile register to Au-->
-  <apn carrier="UQ mobile" mcc="440" mnc="51" apn="uqmobile.jp" mmsport="80" mmsc="http://mms.ezweb.ne.jp/MMS" user="uq@uqmobile.jp" password="uq" authtype="2" type="default,mms,supl,hipri,dun" protocol="IPV4V6" read_only="true" oppo_manual_select="1" />
+  <apn carrier="UQ mobile" mcc="440" mnc="51" apn="uqmobile.jp" mmsport="80" mmsc="http://mms.ezweb.ne.jp/MMS" user="uq@uqmobile.jp" password="uq" authtype="2" type="default,mms,supl,hipri,dun" protocol="IPV4V6" read_only="true"  />
 
   <!-- Bangxu.Li@NW.DATA.1839326,2019/03/20, add for letian PLMN = 44011, begin -->
   <apn carrier="Internet" mcc="440" mnc="11" apn="rm-n.jp" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl"/>
@@ -22261,7 +22253,7 @@
       password="mineo"
       authtype="2"
       type="default,supl"
-      oppo_manual_select="1"
+      
   />
   <!-- Bangxu.Li@NW.DATA.1897693,2019/03/16, add Mineo apn for Softbank, end -->
 
@@ -22275,15 +22267,15 @@
       password="0000"
       authtype="3"
       type="default,supl,dun"
-      oppo_manual_select="1"
+      
   />
   <!-- #endif VENDOR_EDIT-->
 
   <!-- Guangzhi.Deng@NW.DATA.2267325&2267715,2019/09/06, add for Fiimo and Qtmobile apn, begin -->
-  <apn carrier="Fiimo(Aプラン)" mcc="440" mnc="51" apn="mineo.jp" user="stnet@fiimo.jp" password="fiimo" authtype="2" type="default" oppo_manual_select="1"/>
-  <apn carrier="Fiimo(Dプラン)" mcc="440" mnc="10" apn="mineo-d.jp" user="stnet@fiimo.jp" password="fiimo" authtype="2" type="default" oppo_manual_select="1"/>
-  <apn carrier="QTモバイル タイプA" mcc="440" mnc="51" apn="mineo.jp" user="qtnet@bbiq.jp" password="bbiq" authtype="2" type="default" oppo_manual_select="1"/>
-  <apn carrier="QTモバイル タイプD" mcc="440" mnc="10" apn="vmobile.jp" user="qtnet@bbiq.jp" password="bbiq" authtype="3" type="default" oppo_manual_select="1"/>
+  <apn carrier="Fiimo(Aプラン)" mcc="440" mnc="51" apn="mineo.jp" user="stnet@fiimo.jp" password="fiimo" authtype="2" type="default" />
+  <apn carrier="Fiimo(Dプラン)" mcc="440" mnc="10" apn="mineo-d.jp" user="stnet@fiimo.jp" password="fiimo" authtype="2" type="default" />
+  <apn carrier="QTモバイル タイプA" mcc="440" mnc="51" apn="mineo.jp" user="qtnet@bbiq.jp" password="bbiq" authtype="2" type="default" />
+  <apn carrier="QTモバイル タイプD" mcc="440" mnc="10" apn="vmobile.jp" user="qtnet@bbiq.jp" password="bbiq" authtype="3" type="default" />
   <!-- Guangzhi.Deng@NW.DATA.2267325&2267715,2019/09/06, add for Fiimo and Qtmobile apn, end -->
 
   <apn carrier="SKT LTE"

@@ -4,6 +4,4 @@ get_prop(mtk_hal_audio, tel_switch_prop)
 set_prop(mtk_hal_audio, audio_tunning_prop)
 set_prop(mtk_hal_audio, dirac_prop)
 
-allow mtk_hal_audio proc_oppo_opname:file r_file_perms;
-allow mtk_hal_audio proc_oppo_ver:file r_file_perms;
 allow mtk_hal_audio self:process execmem;

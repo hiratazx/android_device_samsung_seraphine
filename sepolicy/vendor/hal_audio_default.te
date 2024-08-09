@@ -32,4 +32,3 @@ get_prop(hal_audio_default, wmt_prop)
 set_prop(hal_audio_default, audio_tunning_prop)
 
 allow hal_audio_default debugfs_ion:dir search;
-allow hal_audio_default proc_oppo_ver:file r_file_perms;
