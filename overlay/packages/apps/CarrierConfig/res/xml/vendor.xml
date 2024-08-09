@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+	<boolean name="carrier_wfc_ims_available_bool" value="true" />
+	<boolean name="hide_lte_plus_data_icon_bool" value="false"/>
+	<boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+	<int name="lte_plus_threshold_bandwidth_khz_int" value="0"/>
+    </carrier_config>
+    <carrier_config operator="SMARTFREN">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <string-array name="mccmnc" num="2">
+            <item value="51009" />
+            <item value="51028" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="AIS">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="52001" />
+            <item value="52003" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="DTAC">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="52005" />
+            <item value="52018" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="true">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="mtk_key_restore_address_for_ims_conference_participants" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="52000" />
+            <item value="52004" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SEATEL">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="45611" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SMART">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="45605" />
+            <item value="45606" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="DIGI">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="50216" />
+            <item value="50210" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="YTL">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="502152" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="YES">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="502152" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="WEBE">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="502153" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="JIO">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <string-array name="mccmnc" num="22">
+            <item value="405840" />
+            <item value="405854" />
+            <item value="405855" />
+            <item value="405856" />
+            <item value="405857" />
+            <item value="405858" />
+            <item value="405859" />
+            <item value="405860" />
+            <item value="405861" />
+            <item value="405862" />
+            <item value="405863" />
+            <item value="405864" />
+            <item value="405865" />
+            <item value="405866" />
+            <item value="405867" />
+            <item value="405868" />
+            <item value="405869" />
+            <item value="405870" />
+            <item value="405871" />
+            <item value="405872" />
+            <item value="405873" />
+            <item value="405874" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="VDF">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="wos_flight_mode_support_bool" value="false" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <string-array name="mccmnc" num="23">
+            <item value="40401" />
+            <item value="40405" />
+            <item value="40411" />
+            <item value="40413" />
+            <item value="40415" />
+            <item value="40420" />
+            <item value="40427" />
+            <item value="40430" />
+            <item value="40443" />
+            <item value="40446" />
+            <item value="40460" />
+            <item value="40484" />
+            <item value="40486" />
+            <item value="40488" />
+            <item value="40566" />
+            <item value="40567" />
+            <item value="405750" />
+            <item value="405751" />
+            <item value="405752" />
+            <item value="405753" />
+            <item value="405754" />
+            <item value="405755" />
+            <item value="405756" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="IDEA">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="wos_flight_mode_support_bool" value="false" />
+        <string-array name="mccmnc" num="28">
+            <item value="40404" />
+            <item value="40407" />
+            <item value="40412" />
+            <item value="40414" />
+            <item value="40419" />
+            <item value="40422" />
+            <item value="40424" />
+            <item value="40444" />
+            <item value="40456" />
+            <item value="40478" />
+            <item value="40482" />
+            <item value="40487" />
+            <item value="40489" />
+            <item value="40570" />
+            <item value="405799" />
+            <item value="405845" />
+            <item value="405846" />
+            <item value="405847" />
+            <item value="405848" />
+            <item value="405849" />
+            <item value="405850" />
+            <item value="405851" />
+            <item value="405852" />
+            <item value="405853" />
+            <item value="405908" />
+            <item value="405909" />
+            <item value="405910" />
+            <item value="405911" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="AIRTEL">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <boolean name="wos_flight_mode_support_bool" value="true" />
+        <string-array name="mccmnc" num="23">
+            <item value="40402" />
+            <item value="40403" />
+            <item value="40410" />
+            <item value="40416" />
+            <item value="40431" />
+            <item value="40440" />
+            <item value="40445" />
+            <item value="40449" />
+            <item value="40470" />
+            <item value="40490" />
+            <item value="40492" />
+            <item value="40493" />
+            <item value="40494" />
+            <item value="40495" />
+            <item value="40496" />
+            <item value="40497" />
+            <item value="40498" />
+            <item value="40551" />
+            <item value="40552" />
+            <item value="40553" />
+            <item value="40554" />
+            <item value="40555" />
+            <item value="40556" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="CMCC">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="mtk_key_restore_address_for_ims_conference_participants" value="true" />
+        <boolean name="support_video_conference_call_bool" value="true" />
+        <string-array name="mccmnc" num="5">
+            <item value="46000" />
+            <item value="46002" />
+            <item value="46004" />
+            <item value="46007" />
+            <item value="46008" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="CU">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <string-array name="mccmnc" num="3">
+            <item value="46001" />
+            <item value="46006" />
+            <item value="46009" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="CT">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="46003" />
+            <item value="46011" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="TELENOR">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="41406" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="2DEGREE">
+        <string-array name="mccmnc" num="1">
+            <item value="53024" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SPARK">
+        <string-array name="mccmnc" num="1">
+            <item value="53005" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="KDDI">
+        <string-array name="mccmnc" num="2">
+            <item value="44050" />
+            <item value="44051" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SEATEL">
+        <string-array name="mccmnc" num="1">
+            <item value="45611" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="YES">
+        <string-array name="mccmnc" num="1">
+            <item value="502152" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SMARTFREN">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <string-array name="mccmnc" num="2">
+            <item value="51009" />
+            <item value="51028" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="ETISALAT">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <string-array name="mccmnc" num="1">
+            <item value="42402" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="UK EE">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="23430" />
+            <item value="23433" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="TPG">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="52510" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SINGTEL">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="3">
+            <item value="52501" />
+            <item value="52502" />
+            <item value="52507" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="STARHUB">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="52505" />
+            <item value="52506" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="M1">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="52503" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="M1" spn="Circles">
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <string-array name="mccmnc" num="1">
+            <item value="52503" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="STC">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="42001" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="Zain KSA">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
+        <string-array name="mccmnc" num="1">
+            <item value="42004" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="FET">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="46601" />
+            <item value="46602" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="APTG">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="gsm_nonroaming_networks_string_array" num="1">
+            <item value="46697" />
+        </string-array>
+        <string-array name="mccmnc" num="1">
+            <item value="46605" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="TWM">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="46697" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="CHT">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="46692" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="TST">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="46689" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="TR Turkcell">
+        <string-array name="mccmnc" num="1">
+            <item value="28601" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="3 UK">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="23420" />
+            <item value="23594" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="VDF">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="50503" />
+            <item value="50506" />
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="01f" operator="VDF">
+        <boolean name="carrier_volte_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="false" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <string-array name="mccmnc" num="2">
+            <item value="50503" />
+            <item value="50506" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="OPTUS">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="50502" />
+        </string-array>
+    </carrier_config>
+    <carrier_config imsi="505029" operator="OPTUS">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="50502" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="TELSTRA">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="false" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="4">
+            <item value="50501" />
+            <item value="50511" />
+            <item value="50571" />
+            <item value="50572" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="VDF">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="21401" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="ORANGE">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="21403" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="Telefonica">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="23410" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="VDF">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="23415" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="ORANGE">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="20801" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="SFR">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="3">
+            <item value="20810" />
+            <item value="20811" />
+            <item value="20813" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="Bouygues">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="20820" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="TIM">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="22201" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="VDF">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="22210" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="WIND">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="22288" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="DTAG">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="26201" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="VDF">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="26202" />
+            <item value="26209" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="Telefonica">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="3">
+            <item value="26203" />
+            <item value="26207" />
+            <item value="26277" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="DTAG">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="26002" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="ORANGE">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="26003" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="PLAY">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="26006" />
+            <item value="26098" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="Tele2">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="20402" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="VDF">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="1">
+            <item value="20404" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="KPN">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="3">
+            <item value="20408" />
+            <item value="20412" />
+            <item value="20469" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="DTAG">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="2">
+            <item value="20416" />
+            <item value="20420" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="Vinaphone">
+        <boolean name="carrier_use_ims_first_for_emergency_bool" value="false" />
+        <string-array name="mccmnc" num="1">
+            <item value="45202" />
+        </string-array>
+    </carrier_config>
+    <carrier_config operator="Mobily">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <string-array name="mccmnc" num="3">
+            <item value="42003" />
+            <item value="96656" />
+            <item value="96654" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>

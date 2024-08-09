@@ -1,0 +1,95 @@
+# MTK platform .rc configure
+on post-fs-data
+    # calibration
+    mkdir /data/vendor/sensor 0774 system system
+    # Sensor
+    chmod 0660 /dev/hwmsensor
+    chmod 0660 /dev/msensor
+    chmod 0660 /dev/gsensor
+    chmod 0660 /dev/als_ps
+    chmod 0660 /dev/aal_als
+    chmod 0660 /dev/m_als_misc
+    chmod 0660 /dev/m_ps_misc
+    chmod 0660 /dev/m_acc_misc
+    chmod 0660 /dev/m_mag_misc
+    chmod 0660 /dev/m_situ_misc
+    chmod 0660 /dev/m_step_c_misc
+    chmod 0660 /dev/sensorlist
+
+    chown system system /dev/hwmsensor
+    chown system system /dev/msensor
+    chown radio system /dev/gsensor
+    chown radio system /dev/als_ps
+    chown system system /dev/aal_als
+    chown system system /dev/m_als_misc
+    chown system system /dev/m_ps_misc
+    chown system system /dev/m_acc_misc
+    chown system system /dev/m_mag_misc
+    chown system system /dev/m_situ_misc
+    chown system system /dev/m_step_c_misc
+    chown system system /dev/sensorlist
+
+    chmod 0660 /sys/class/sensor/m_acc_misc/accenablenodata
+    chmod 0660 /sys/class/sensor/m_acc_misc/accactive
+    chmod 0660 /sys/class/sensor/m_acc_misc/accdelay
+    chmod 0660 /sys/class/sensor/m_acc_misc/accbatch
+    chmod 0660 /sys/class/sensor/m_acc_misc/accflush
+    chmod 0660 /sys/class/sensor/m_acc_misc/acccali
+    chown system system /sys/class/sensor/m_acc_misc/accenablenodata
+    chown system system /sys/class/sensor/m_acc_misc/accactive
+    chown system system /sys/class/sensor/m_acc_misc/accdelay
+    chown system system /sys/class/sensor/m_acc_misc/accbatch
+    chown system system /sys/class/sensor/m_acc_misc/accflush
+    chown system system /sys/class/sensor/m_acc_misc/acccali
+
+    chmod 0660 /sys/class/sensor/m_mag_misc/magactive
+    chmod 0660 /sys/class/sensor/m_mag_misc/magdelay
+    chmod 0660 /sys/class/sensor/m_mag_misc/magbatch
+    chmod 0660 /sys/class/sensor/m_mag_misc/magflush
+    chmod 0660 /sys/class/sensor/m_mag_misc/magcali
+    chmod 0660 /sys/class/sensor/m_mag_misc/maglibinfo
+    chown system system /sys/class/sensor/m_mag_misc/magactive
+    chown system system /sys/class/sensor/m_mag_misc/magdelay
+    chown system system /sys/class/sensor/m_mag_misc/magbatch
+    chown system system /sys/class/sensor/m_mag_misc/magflush
+    chown system system /sys/class/sensor/m_mag_misc/magcali
+    chown system system /sys/class/sensor/m_mag_misc/maglibinfo
+
+    chmod 0660 /sys/class/sensor/m_als_misc/alsactive
+    chmod 0660 /sys/class/sensor/m_als_misc/alsdelay
+    chmod 0660 /sys/class/sensor/m_als_misc/alsbatch
+    chmod 0660 /sys/class/sensor/m_als_misc/alsflush
+    chmod 0660 /sys/class/sensor/m_als_misc/alscali
+    chmod 0660 /sys/class/sensor/m_ps_misc/psactive
+    chmod 0660 /sys/class/sensor/m_ps_misc/psdelay
+    chmod 0660 /sys/class/sensor/m_ps_misc/psbatch
+    chmod 0660 /sys/class/sensor/m_ps_misc/psflush
+    chmod 0660 /sys/class/sensor/m_ps_misc/pscali
+    chown system system /sys/class/sensor/m_als_misc/alsactive
+    chown system system /sys/class/sensor/m_als_misc/alsdelay
+    chown system system /sys/class/sensor/m_als_misc/alsbatch
+    chown system system /sys/class/sensor/m_als_misc/alsflush
+    chown system system /sys/class/sensor/m_als_misc/alscali
+    chown system system /sys/class/sensor/m_ps_misc/psactive
+    chown system system /sys/class/sensor/m_ps_misc/psdelay
+    chown system system /sys/class/sensor/m_ps_misc/psbatch
+    chown system system /sys/class/sensor/m_ps_misc/psflush
+    chown system system /sys/class/sensor/m_ps_misc/pscali
+
+    chmod 0660 /sys/class/sensor/m_situ_misc/situactive
+    chmod 0660 /sys/class/sensor/m_situ_misc/situdelay
+    chmod 0660 /sys/class/sensor/m_situ_misc/situbatch
+    chmod 0660 /sys/class/sensor/m_situ_misc/situflush
+    chown system system /sys/class/sensor/m_situ_misc/situactive
+    chown system system /sys/class/sensor/m_situ_misc/situdelay
+    chown system system /sys/class/sensor/m_situ_misc/situbatch
+    chown system system /sys/class/sensor/m_situ_misc/situflush
+
+    chmod 0660 /sys/class/sensor/m_step_c_misc/step_cactive
+    chmod 0660 /sys/class/sensor/m_step_c_misc/step_cdelay
+    chmod 0660 /sys/class/sensor/m_step_c_misc/step_cbatch
+    chmod 0660 /sys/class/sensor/m_step_c_misc/step_cflush
+    chown system system /sys/class/sensor/m_step_c_misc/step_cactive
+    chown system system /sys/class/sensor/m_step_c_misc/step_cdelay
+    chown system system /sys/class/sensor/m_step_c_misc/step_cbatch
+    chown system system /sys/class/sensor/m_step_c_misc/step_cflush

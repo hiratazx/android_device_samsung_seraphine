@@ -1,0 +1,67 @@
+//
+// Copyright (C) 2022 ArrowOS
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.connectivity.rc",
+    src: "etc/init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.modem.rc",
+    src: "etc/init.modem.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6765.rc",
+    src: "etc/init.mt6765.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6765.usb.rc",
+    src: "etc/init.mt6765.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sensor_1_0.rc",
+    src: "etc/init.sensor_1_0.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.mt6762",
+    src: "etc/fstab.mt6762",
+    ramdisk_available: true,
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.mt6765",
+    src: "etc/fstab.mt6765",
+    ramdisk_available: true,
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.mt6765.rc",
+    src: "etc/init.recovery.mt6765.rc",
+    sub_dir: "init",
+    recovery: true,
+}
+
+prebuilt_etc {
+    name: "init.recovery.mt6765.sh",
+    src: "etc/init.recovery.mt6765.sh",
+    sub_dir: "init",
+    recovery: true,
+}
